@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+	font-family: "Lato", sans-serif;
+}
+
+#navbar {
+	background: #f9f9f9;
+}
+
+#logo {
+	font-size: 36px;
+	font-weight: 550;
+	color: black;
+	text-shadow: 0 1px 1px black;
+	margin-bottom: 5px;
+}
+
+#logo span {
+	color: #ffa500;
+}
+
+.navbar-toggler span {
+	color: #ffa500;
+}
+
+.navbar-nav {
+	margin-left: 20px;
+}
+
+.nav-item .nav-link {
+	font-size: 16px;
+	font-weight: 550;
+	color: black;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	transition: 0.5s ease;
+}
+
+.nav-item .nav-link:hover {
+	background: #ffa500;
+	color: white;
+}
+
+#navbar form button {
+	background: orange;
+	color: white;
+	border: none;
+}
+
+.mainText h1 {
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 600;
+	text-shadow: 0 1px 1px black;
+}
+
+.mainText h1 span {
+	color: #ffa500;
+}
+
+.packages .card {
+	border-radius: 5px;
+	border: none;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.packages .card img {
+	border-radius: 5px;
+}
+
+.packages .card .cardContent {
+	background: transparent;
+}
+
+.cardContent h3 {
+	margin-left: 100px;
+}
+
+.cardContent p {
+	margin-left: 10px;
+}
+
+.packages .card .cardContent h3 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.checked {
+	color: #ffa500;
+}
+
+.star i {
+	font-size: 15px;
+}
+
+.packages .card .cardContent h6 {
+	font-size: 20px;
+}
+
+.packages .card .cardContent a {
+	padding: 10px;
+	text-decoration: none;
+	background: #ffa500;
+	color: white;
+	border-radius: 5px;
+}
+
+#footer {
+	width: 100%;
+	margin-top: 150px;
+	text-align: center;
+	background: #f9f9f9;
+}
+
+#footer h1 {
+	font-weight: 600;
+	padding-top: 30px;
+	text-shadow: 0px 0px 1px black;
+}
+
+#footer h1 span {
+	color: #ffa500;
+}
+
+.socialLinks i {
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	background: black;
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+
+.socialLinks i:hover {
+	background: #ffa500;
+}
